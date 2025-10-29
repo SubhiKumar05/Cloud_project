@@ -17,33 +17,8 @@ const Footer = () => {
         © 2025 Berliner Diaries | All rights reserved
       </p>
       <p style={{ margin: "5px 0" }}>
-        Follow us on:&nbsp;
-        <a
-          href="https://instagram.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#B87333", margin: "0 5px" }}
-        >
-          Instagram
-        </a>
-        |
-        <a
-          href="https://github.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#B87333", margin: "0 5px" }}
-        >
-          GitHub
-        </a>
-        |
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "#B87333", margin: "0 5px" }}
-        >
-          LinkedIn
-        </a>
+        
+       
       </p>
     </footer>
   );
