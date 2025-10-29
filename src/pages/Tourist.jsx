@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const places = [
   { title: "Neuschwanstein Castle", state: "Bavaria", image: "/images/Neuschwanstein.jpg", height: 300, width: 100, description: "Fairy-tale castle with scenic views." },
-  { title: "Brandenburg Gate", state: "Berlin", image: "/images/Brandenburg.jpg", height: 450, width: 100, description: "Iconic historical landmark." },
+  { title: "Brandenburg Gate", state: "Berlin", image: "/images/brandenburg.jpg", height: 450, width: 100, description: "Iconic historical landmark." },
   { title: "Black Forest", state: "Baden-Württemberg", image: "/images/blackforest.jpg", height: 450, width: 100, description: "Dense forest known for its beauty." },
   { title: "Cologne Cathedral", state: "North Rhine-Westphalia", image: "/images/Cologne.jpg", height: 400, width: 100, description: "Gothic cathedral and UNESCO World Heritage site." },
   { title: "Heidelberg Castle", state: "Baden-Württemberg", image: "/images/heidelberg.jpeg", height: 280, width: 100, description: "Historic castle overlooking the Neckar River." },
