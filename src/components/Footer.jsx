@@ -17,8 +17,7 @@ const Footer = () => {
         © 2025 Berliner Diaries | All rights reserved
       </p>
       <p style={{ margin: "5px 0" }}>
-        
-       
+        Follow us on Instagram, GitHub, and LinkedIn
       </p>
     </footer>
   );
