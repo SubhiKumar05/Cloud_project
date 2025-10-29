@@ -4,11 +4,25 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "outputDirectory": "build" } 
+      "config": { "outputDirectory": "build" }
     }
   ],
   "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
-    { "src": "/(.*)", "dest": "/index.html" }
+    { 
+      "src": "/static/(.*)", 
+      "dest": "/static/$1" 
+    },
+    { 
+      "src": "/images/(.*)", 
+      "dest": "/images/$1" 
+    },
+    { 
+      "src": "/(.*\\.(ico|json|xml|txt))", 
+      "dest": "/$1" 
+    },
+    { 
+      "src": "/(.*)", 
+      "dest": "/index.html" 
+    }
   ]
 }
