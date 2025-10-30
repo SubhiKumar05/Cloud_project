@@ -30,7 +30,8 @@ const About = () => {
   Vielen Dank für deinen Besuch , Auf Wiedersehen und bis bald !(Thank you for visiting, See you soon!)
   
 </p>
-              <button className="contact-btn">Contact Me</button>
+              
+
             </div>
 
             {/* Right Side Image */}

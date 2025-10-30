@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
+
 import Home from "./pages/Home";
 import History from "./pages/History";
 import Civilwar from "./pages/Civilwar";
@@ -17,6 +18,7 @@ function App() {
         <Route path="/civilwar" element={<Civilwar />} />
         <Route path="/tourist" element={<Tourist />} />
         <Route path="/about" element={<About />} />
+        
       </Routes>
      
     </div>
